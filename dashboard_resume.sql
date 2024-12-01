@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 01, 2024 at 12:11 PM
+-- Generation Time: Dec 01, 2024 at 01:21 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -155,8 +155,14 @@ CREATE TABLE `resumes` (
 --
 
 INSERT INTO `resumes` (`id`, `name`, `title`, `status`, `role`, `email`, `experience`, `skills`, `education`, `created_at`, `updated_at`) VALUES
-(2, 'LOUIE TOLENTINO', 'WEB DEVELOPER', 'REJECTED', 'LEAD PROGRAMMER', 'LouieTolentino@gmail.com', '100 YEARS', 'HTML, CSS', 'BTECH BALIUAG BULACAN', '2024-12-01 18:23:19', '2024-12-01 18:55:58'),
-(3, 'wqeqweqw', 'eqweqwe', 'SCHEDULED FOR INTERVIEW', 'weqweqwe', 'eqweqe@Gmail.com', 'weqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqwe', 'weqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqwe', 'weqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqwe', '2024-12-01 18:50:24', '2024-12-01 18:56:49');
+(3, 'wqeqweqw', 'eqweqwe', 'SCHEDULED FOR INTERVIEW', 'weqweqwe', 'eqweqe@Gmail.com', 'weqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqwe', 'weqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqwe', 'weqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqweweqweqwe', '2024-12-01 18:50:24', '2024-12-01 18:56:49'),
+(4, 'MAROD CATAP', 'quos', 'Inactive', 'Health Educator', 'zbechtelar@example.org', 'Officia quisquam occaecati consequatur voluptatem. Esse ducimus quidem accusamus fugiat dicta. Et vel doloremque magni dolor perspiciatis. Vel totam nobis repellat natus.', 'sit rerum ea in eius', 'Consequuntur autem qui occaecati odio autem soluta incidunt.', '2024-12-01 20:09:44', '2024-12-01 20:09:44'),
+(7, 'GABRIEL ROXAS', 'doloremque', 'REJECTED', 'Geological Sample Test Technician', 'wilderman.margarita@example.com', 'Nostrum ratione optio placeat sint. Ratione placeat ullam dolorem tempore accusamus. Ab saepe maiores vel id omnis ut nulla.', 'reiciendis accusamus odit dolores cupiditate', 'Nihil aut corrupti rerum ratione illo aut temporibus.', '2024-12-01 20:09:44', '2024-12-01 20:12:36'),
+(8, 'THRISTAN REYNA', 'consequatursss', 'HIRED', 'Timing Device Assemblers', 'jadon74@example.org', 'Beatae iure suscipit nostrum facilis cum odio et. Nulla quo quas rerum dolor et perspiciatis perferendis. Et ipsam adipisci natus consequatur dolore. Quo quae quaerat sit tempore sed. Molestias ad delectus maxime voluptatibus quaerat blanditiis.', 'vitae omnis ducimus ut est', 'Autem vel consectetur at quia.', '2024-12-01 20:09:44', '2024-12-01 20:12:19'),
+(9, 'MAROD CATAP', 'labore', 'Active', 'Construction Driller', 'rusty95@example.net', 'Voluptatem et et cumque aut. Facere consectetur non id voluptatem. Et perferendis autem modi et. Maxime ut commodi et omnis quis eius. Quisquam aperiam consequuntur aliquam eos veritatis laudantium.', 'dicta consequatur doloribus enim voluptatem', 'Officia ipsum velit delectus.', '2024-12-01 20:09:44', '2024-12-01 20:09:44'),
+(10, 'THRISTAN REYNA', 'impedit', 'Active', 'Community Service Manager', 'qhermiston@example.org', 'Ut aliquam inventore voluptatibus quo veritatis. Consequuntur repellendus voluptatem autem. Natus consequatur tempora provident aut temporibus quaerat dolor. Voluptate quia autem tempore in saepe eaque.', 'maxime asperiores nisi libero nihil', 'Ut qui et quaerat et.', '2024-12-01 20:09:44', '2024-12-01 20:09:44'),
+(11, 'JAYSON BANTOG', 'aut', 'Inactive', 'Mining Machine Operator', 'cole.maeve@example.net', 'Natus molestiae quia et. Et et soluta ab corrupti tenetur delectus assumenda ut. Qui aut assumenda perferendis voluptatum et. Culpa sed laborum sit sint omnis autem quis.', 'voluptatem a soluta ut et', 'Velit occaecati exercitationem voluptatum ex iste voluptas.', '2024-12-01 20:09:44', '2024-12-01 20:09:44'),
+(12, 'CLINT FERNANDO', 'consequuntur', 'Inactive', 'Biophysicist', 'jeremy.runolfsson@example.org', 'Nihil quisquam labore reprehenderit tenetur id esse voluptatem. Id voluptatum doloremque nihil earum voluptate in esse. In nostrum ut quae quibusdam ut nostrum.', 'molestiae quos modi et maxime', 'Dolore minus deserunt deserunt esse et earum.', '2024-12-01 20:09:44', '2024-12-01 20:09:44');
 
 -- --------------------------------------------------------
 
@@ -178,7 +184,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('nks08feHejLSlkwwEcDtX784rQG3PCGPXjB0czek', 2, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiTmdFMmFTbTNKeUl1YVo5ZDRmNjlOdkozRkk3UWZZUFBuWEtoQ0ZoZCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9yZXN1bWVzIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6Mjt9', 1733051261);
+('nks08feHejLSlkwwEcDtX784rQG3PCGPXjB0czek', 2, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiTmdFMmFTbTNKeUl1YVo5ZDRmNjlOdkozRkk3UWZZUFBuWEtoQ0ZoZCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9yZXN1bWVzLzMiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToyO30=', 1733055280);
 
 -- --------------------------------------------------------
 
@@ -300,7 +306,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `resumes`
 --
 ALTER TABLE `resumes`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `users`
